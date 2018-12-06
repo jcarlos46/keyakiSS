@@ -1,6 +1,7 @@
 import os
 import json
 import urllib
+import argparse
 import collections
 from requests import get
 from requests.exceptions import RequestException
@@ -110,6 +111,23 @@ def process_html():
 
 
 def main():
+    global IMAGE_DST
+    global JSON_DST
+    parser = argparse.ArgumentParser(description='Get Keyakizaka46 data profile and pictures')
+    parser.add_argument('-i', '--image',
+                    help='specify the path to save the image')
+    parser.add_argument('-d', '--data',
+                    help='specify the path to save the profile data')
+    args = parser.parse_args()
+    if args.image:
+        IMAGE_DST = args.image
+        if IMAGE_DST[len(IMAGE_DST)-1] != '/':
+            IMAGE_DST += '/'
+        IMAGE_DST += 'images/'
+    if args.data:
+        if args.data[len(args.data)-1] != '/':
+            args.data += '/'        
+        JSON_DST = args.data + JSON_DST
     process_html()
 
 if __name__ == "__main__":
