@@ -120,10 +120,9 @@ def main():
                     help='specify the path to save the profile data')
     args = parser.parse_args()
     if args.image:
+        if args.image[len(args.image)-1] != '/':
+            args.image += '/'
         IMAGE_DST = args.image
-        if IMAGE_DST[len(IMAGE_DST)-1] != '/':
-            IMAGE_DST += '/'
-        IMAGE_DST += 'images/'
     if args.data:
         if args.data[len(args.data)-1] != '/':
             args.data += '/'        
