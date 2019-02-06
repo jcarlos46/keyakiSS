@@ -9,16 +9,6 @@
         "birthplace": "宮城",
         "blood_type": "A型"
     },
-    "02": {
-        "name": "今泉佑唯",
-        "furigana": "いまいずみ ゆい",
-        "en_name": "YUI IMAIZUMI",
-        "birthday": "1998年9月30日",
-        "horoscope": "てんびん座",
-        "height": "153cm",
-        "birthplace": "神奈川",
-        "blood_type": "O型"
-    },
     "03": {
         "name": "上村莉菜",
         "furigana": "うえむら りな",
@@ -87,16 +77,6 @@
         "horoscope": "さそり座",
         "height": "161cm",
         "birthplace": "東京",
-        "blood_type": "A型"
-    },
-    "10": {
-        "name": "志田愛佳",
-        "furigana": "しだ まなか",
-        "en_name": "MANAKA SHIDA",
-        "birthday": "1998年11月23日",
-        "horoscope": "いて座",
-        "height": "167cm",
-        "birthplace": "新潟",
         "blood_type": "A型"
     },
     "11": {
@@ -168,16 +148,6 @@
         "height": "164cm",
         "birthplace": "宮城",
         "blood_type": "A型"
-    },
-    "19": {
-        "name": "米谷奈々未",
-        "furigana": "よねたに ななみ",
-        "en_name": "NANAMI YONETANI",
-        "birthday": "2000年2月24日",
-        "horoscope": "うお座",
-        "height": "159cm",
-        "birthplace": "大阪",
-        "blood_type": "B型"
     },
     "20": {
         "name": "渡辺梨加",
@@ -408,5 +378,105 @@
         "height": "158cm",
         "birthplace": "埼玉",
         "blood_type": "A型"
+    },
+    "43": {
+        "name": "井上梨名",
+        "furigana": "いのうえ りな",
+        "en_name": "RINA INOUE",
+        "birthday": "2001年1月29日",
+        "horoscope": "みずがめ座",
+        "height": "163cm",
+        "birthplace": "兵庫県",
+        "blood_type": "A型"
+    },
+    "44": {
+        "name": "関有美子",
+        "furigana": "せき ゆみこ",
+        "en_name": "YUMIKO SEKI",
+        "birthday": "1998年6月29日",
+        "horoscope": "かに座",
+        "height": "167cm",
+        "birthplace": "福岡県",
+        "blood_type": "A型"
+    },
+    "45": {
+        "name": "武元唯衣",
+        "furigana": "たけもと ゆい",
+        "en_name": "YUI TAKEMOTO",
+        "birthday": "2002年3月23日",
+        "horoscope": "おひつじ座",
+        "height": "157cm",
+        "birthplace": "滋賀県",
+        "blood_type": "O型"
+    },
+    "46": {
+        "name": "田村保乃",
+        "furigana": "たむら ほの",
+        "en_name": "HONO TAMURA",
+        "birthday": "1998年10月21日",
+        "horoscope": "てんびん座",
+        "height": "163.5cm",
+        "birthplace": "大阪府",
+        "blood_type": "A型"
+    },
+    "47": {
+        "name": "藤吉夏鈴",
+        "furigana": "ふじよし かりん",
+        "en_name": "KARIN FUJIYOSHI",
+        "birthday": "2001年8月29日",
+        "horoscope": "おとめ座",
+        "height": "163cm",
+        "birthplace": "大阪府",
+        "blood_type": "A型"
+    },
+    "48": {
+        "name": "松田里奈",
+        "furigana": "まつだ りな",
+        "en_name": "RINA MATSUDA",
+        "birthday": "1999年10月13日",
+        "horoscope": "てんびん座",
+        "height": "158.5cm",
+        "birthplace": "宮崎県",
+        "blood_type": "O型"
+    },
+    "49": {
+        "name": "松平璃子",
+        "furigana": "まつだいら りこ",
+        "en_name": "RIKO MATSUDAIRA",
+        "birthday": "1998年5月5日",
+        "horoscope": "おうし座",
+        "height": "167cm",
+        "birthplace": "東京都",
+        "blood_type": "O型"
+    },
+    "50": {
+        "name": "森田ひかる",
+        "furigana": "もりた ひかる",
+        "en_name": "HIKARU MORITA",
+        "birthday": "2001年7月10日",
+        "horoscope": "かに座",
+        "height": "149.8cm",
+        "birthplace": "福岡県",
+        "blood_type": "B型"
+    },
+    "51": {
+        "name": "山﨑天",
+        "furigana": "やまさき てん",
+        "en_name": "TEN YAMASAKI",
+        "birthday": "2005年9月28日",
+        "horoscope": "てんびん座",
+        "height": "164cm",
+        "birthplace": "大阪府",
+        "blood_type": "A型"
+    },
+    "52": {
+        "name": "上村ひなの",
+        "furigana": "かみむら ひなの",
+        "en_name": "HINANO KAMIMURA",
+        "birthday": "2004年4月12日",
+        "horoscope": "おひつじ座",
+        "height": "161cm",
+        "birthplace": "東京都",
+        "blood_type": "AB型"
     }
 }

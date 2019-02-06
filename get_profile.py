@@ -10,8 +10,8 @@ from bs4 import BeautifulSoup
 
 BASE_SRC='http://www.keyakizaka46.com/s/k46o/artist/'
 
-MAX_MEMBER=42
-NULL_MEMBERS={16} #Add Grads
+MAX_MEMBER=52
+NULL_MEMBERS={2,10,16,19 } #Add Grads
 
 IMAGE_DST='images/'
 JSON_DST='keyaki.json'
