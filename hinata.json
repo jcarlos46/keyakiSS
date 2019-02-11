@@ -1,0 +1,191 @@
+{
+    "1": {
+        "name": "井口眞緒",
+        "furigana": "いぐち まお",
+        "birthday": "1995年11月10日",
+        "horoscope": "さそり座",
+        "height": "163cm",
+        "birthplace": "新潟",
+        "blood_type": "AB型"
+    },
+    "2": {
+        "name": "潮紗理菜",
+        "furigana": "うしお さりな",
+        "birthday": "1997年12月26日",
+        "horoscope": "やぎ座",
+        "height": "157cm",
+        "birthplace": "神奈川",
+        "blood_type": "O型"
+    },
+    "3": {
+        "name": "柿崎芽実",
+        "furigana": "かきざき めみ",
+        "birthday": "2001年12月2日",
+        "horoscope": "いて座",
+        "height": "157cm",
+        "birthplace": "長野",
+        "blood_type": "A型"
+    },
+    "4": {
+        "name": "影山優佳",
+        "furigana": "かげやま ゆうか",
+        "birthday": "2001年5月8日",
+        "horoscope": "おうし座",
+        "height": "156cm",
+        "birthplace": "東京",
+        "blood_type": "O型"
+    },
+    "5": {
+        "name": "加藤史帆",
+        "furigana": "かとう しほ",
+        "birthday": "1998年2月2日",
+        "horoscope": "みずがめ座",
+        "height": "160cm",
+        "birthplace": "東京",
+        "blood_type": "A型"
+    },
+    "6": {
+        "name": "齊藤京子",
+        "furigana": "さいとう きょうこ",
+        "birthday": "1997年9月5日",
+        "horoscope": "おとめ座",
+        "height": "154cm",
+        "birthplace": "東京",
+        "blood_type": "A型"
+    },
+    "7": {
+        "name": "佐々木久美",
+        "furigana": "ささき くみ",
+        "birthday": "1996年1月22日",
+        "horoscope": "みずがめ座",
+        "height": "167cm",
+        "birthplace": "千葉",
+        "blood_type": "O型"
+    },
+    "8": {
+        "name": "佐々木美玲",
+        "furigana": "ささき みれい",
+        "birthday": "1999年12月17日",
+        "horoscope": "いて座",
+        "height": "164cm",
+        "birthplace": "兵庫",
+        "blood_type": "O型"
+    },
+    "9": {
+        "name": "高瀬愛奈",
+        "furigana": "たかせ まな",
+        "birthday": "1998年9月20日",
+        "horoscope": "おとめ座",
+        "height": "157cm",
+        "birthplace": "大阪",
+        "blood_type": "A型"
+    },
+    "10": {
+        "name": "高本彩花",
+        "furigana": "たかもと あやか",
+        "birthday": "1998年11月2日",
+        "horoscope": "さそり座",
+        "height": "162cm",
+        "birthplace": "神奈川",
+        "blood_type": "B型"
+    },
+    "11": {
+        "name": "東村芽依",
+        "furigana": "ひがしむら めい",
+        "birthday": "1998年8月23日",
+        "horoscope": "おとめ座",
+        "height": "153cm",
+        "birthplace": "奈良",
+        "blood_type": "O型"
+    },
+    "12": {
+        "name": "金村美玖",
+        "furigana": "かねむら みく",
+        "birthday": "2002年9月10日",
+        "horoscope": "おとめ座",
+        "height": "162cm",
+        "birthplace": "埼玉",
+        "blood_type": "O型"
+    },
+    "13": {
+        "name": "河田陽菜",
+        "furigana": "かわた ひな",
+        "birthday": "2001年7月23日",
+        "horoscope": "しし座",
+        "height": "153cm",
+        "birthplace": "山口",
+        "blood_type": "B型"
+    },
+    "14": {
+        "name": "小坂菜緒",
+        "furigana": "こさか なお",
+        "birthday": "2002年9月7日",
+        "horoscope": "おとめ座",
+        "height": "161cm",
+        "birthplace": "大阪",
+        "blood_type": "O型"
+    },
+    "15": {
+        "name": "富田鈴花",
+        "furigana": "とみた すずか",
+        "birthday": "2001年1月18日",
+        "horoscope": "やぎ座",
+        "height": "164cm",
+        "birthplace": "神奈川",
+        "blood_type": "A型"
+    },
+    "16": {
+        "name": "丹生明里",
+        "furigana": "にぶ あかり",
+        "birthday": "2001年2月15日",
+        "horoscope": "みずがめ座",
+        "height": "156cm",
+        "birthplace": "埼玉",
+        "blood_type": "AB型"
+    },
+    "17": {
+        "name": "濱岸ひより",
+        "furigana": "はまぎし ひより",
+        "birthday": "2002年9月28日",
+        "horoscope": "てんびん座",
+        "height": "166cm",
+        "birthplace": "福岡",
+        "blood_type": "A型"
+    },
+    "18": {
+        "name": "松田好花",
+        "furigana": "まつだ このか",
+        "birthday": "1999年4月27日",
+        "horoscope": "おうし座",
+        "height": "157cm",
+        "birthplace": "京都",
+        "blood_type": "A型"
+    },
+    "19": {
+        "name": "宮田愛萌",
+        "furigana": "みやた まなも",
+        "birthday": "1998年4月28日",
+        "horoscope": "おうし座",
+        "height": "158cm",
+        "birthplace": "東京",
+        "blood_type": "A型"
+    },
+    "20": {
+        "name": "渡邉美穂",
+        "furigana": "わたなべ みほ",
+        "birthday": "2000年2月24日",
+        "horoscope": "うお座",
+        "height": "158cm",
+        "birthplace": "埼玉",
+        "blood_type": "A型"
+    },
+    "21": {
+        "name": "上村ひなの",
+        "furigana": "かみむら ひなの",
+        "birthday": "2004年4月12日",
+        "horoscope": "おひつじ座",
+        "height": "161cm",
+        "birthplace": "東京都",
+        "blood_type": "AB型"
+    }
+}

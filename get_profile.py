@@ -8,13 +8,13 @@ from requests.exceptions import RequestException
 from contextlib import closing
 from bs4 import BeautifulSoup
 
-BASE_SRC='http://www.keyakizaka46.com/s/k46o/artist/'
+BASE_SRC='https://www.hinatazaka46.com/s/official/artist/'
 
-MAX_MEMBER=52
-NULL_MEMBERS={2,10,16,19 } #Add Grads
+MAX_MEMBER=21
+NULL_MEMBERS={} #Add Grads
 
 IMAGE_DST='images/'
-JSON_DST='keyaki.json'
+JSON_DST='hinata.json'
 
 def simple_get(url):
     try:
@@ -48,10 +48,10 @@ def process_image(html, num):
     """
     if not os.path.exists(IMAGE_DST):
         os.makedirs(IMAGE_DST)
-    img_box = html.find("div", {"class": "box-profile_img"})
+    img_box = html.find("div", {"class": "c-member__thumb c-member__thumb__large"})
     img_link = img_box.find("img")['src']
 
-    dl = img_link.replace("/400_320_102400", '')
+    dl = img_link.replace("/600_600_102400", '')
     name_file = IMAGE_DST + num + ".jpg"
     try:
         urllib.request.urlretrieve(dl, name_file)
@@ -67,16 +67,14 @@ def get_profile(html):
         object: a dictionary that contains all the profile data
     """
     profile_dict = collections.OrderedDict()
-    profile_box = html.find("div", {"class": "box-profile_text"})
-    name = profile_box.find("p", {"class": "name"}).text
+    profile_box = html.find("div", {"class": "p-member__info"})
+    name = profile_box.find("div", {"class": "c-member__name--info"}).text
     profile_dict['name'] = name.strip().replace(" ",'')
-    profile_dict['furigana'] = profile_box.find("p",
-            {"class": "furigana"}).text.strip()
-    profile_dict['en_name'] = profile_box.find("span",
-            {"class": "en"}).text.replace("\u3000", " ")
+    profile_dict['furigana'] = profile_box.find("div",
+            {"class": "c-member__kana"}).text.strip()
 
-    info_box = profile_box.find("div", {"class": "box-info"})
-    all_info = info_box.findAll("dt")
+    info_box = profile_box.find("table", {"class": "p-member__info-table"})
+    all_info = info_box.findAll("td", {"class": "c-member__info-td__text"})
 
     info_arr = []
     for info in all_info:
@@ -96,8 +94,6 @@ def process_html():
     for i in range(1, MAX_MEMBER+1):
         if i not in NULL_MEMBERS:
             num = str(i)
-            if ( len(num) == 1):
-                num = '0' + num
             html_address = BASE_SRC + num
             raw_html = simple_get(html_address)
             html = BeautifulSoup(raw_html, 'html.parser')
